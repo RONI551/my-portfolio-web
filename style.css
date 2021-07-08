@@ -1,0 +1,35 @@
+body{
+
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50 px;
+}
+
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+width: 50%;
+padding-left: 2%;
+}
+.half-width img{
+    width:100% ;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,rgb(241, 96, 0));
+    font-weight: 700;
+    color:wheat;
+    border-radius: 5px;
+}
+.bannerbackground{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
